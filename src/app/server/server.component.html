@@ -1,0 +1,8 @@
+<!-- disabled is a attribute just to disable the button we used -->
+<!-- to make this functionality dynamic we keep disabled inside [] brace -->
+<!-- angular brackets indicate property binding , that we want to bind some property dynamically -->
+<button class="btn btn-primary" [disabled]="!allowNew">Add!</button>
+<!-- output -->
+<h2>{{allowNew}}</h2>
+<!-- instead of string interpolation we use property binding -->
+<p [innerText]="allowNew"></p>
