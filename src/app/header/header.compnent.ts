@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 })
 //every component is a class in angular
 export class HeaderComponent {
-    title="Hello World!";
+    title="The Header!";
     // number=500;
     // bool=true;
     
