@@ -11,15 +11,21 @@ import { Component } from '@angular/core';
 //every component is a class in angular
 export class HeaderComponent {
     title="Hello World!";
-    number=500;
-    bool=true;
+    // number=500;
+    // bool=true;
     
-    message(){
-        return 'Hello GOod Day!'
-    }
+    // message(){
+    //     return 'Hello GOod Day!'
+    // }
 // constructor is methods executer 
     constructor(){
 
+    }
+    disp(event){
+      console.log(event.target.value)
+    }
+    onClick(data){
+        console.log(data.value)
     }
      
 }
